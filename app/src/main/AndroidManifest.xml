@@ -14,15 +14,13 @@
             android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".app.login.LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/AppTheme.Light"
-            android:noHistory="true"></activity>
+            android:theme="@style/AppTheme.Light"></activity>
     </application>
 
 </manifest>

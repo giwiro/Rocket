@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     Thread.sleep(500);
                     startActivity(intent);
+                    finish();
                 } catch (InterruptedException e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
